@@ -1,7 +1,13 @@
-<script setup></script>
+<script setup>
+import RedacButtons from './component/RedacButtons.vue';
+</script>
 
 <template>
-  <div class="">
-    <div class="mt-20 ms-20">Редактор текста</div>
+  <div>
+    <div class="flex px-5 my-20 place-content-center">
+      <div>
+        <RedacButtons />
+      </div>
+    </div>
   </div>
 </template>
