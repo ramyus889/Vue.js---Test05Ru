@@ -1,12 +1,7 @@
-<script setup>
-import UseHeader from './component/UseHeader.vue';
-</script>
+<script setup></script>
 
 <template>
   <div class="">
-    <div class="">
-      <UseHeader />
-      <RouterView />
-    </div>
+    <div class="mt-20 ms-20">Редактор текста</div>
   </div>
 </template>
